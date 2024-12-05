@@ -99,7 +99,7 @@ class CornerValue {
   }
 
   @override
-  bool operator ==(dynamic other) => value.hashCode == other.hashCode;
+  bool operator ==(Object other) => value.hashCode == other.hashCode;
 
   @override
   int get hashCode => value.hashCode;

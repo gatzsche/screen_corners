@@ -23,7 +23,7 @@ class ScreenCornersApp extends StatelessWidget {
         body: Center(
           child: Text(
             'Screen Corners: ${ScreenCorners.corner.value}',
-            style: Theme.of(context).textTheme.headline4,
+            style: Theme.of(context).textTheme.headlineMedium,
           ),
         ),
       ),
