@@ -13,13 +13,9 @@ class ScreenCornersApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
+      theme: ThemeData(useMaterial3: true),
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Screen Corners'),
-        ),
+        appBar: AppBar(title: const Text('Screen Corners')),
         body: Center(
           child: Text(
             'Screen Corners: ${ScreenCorners.corner.value}',
